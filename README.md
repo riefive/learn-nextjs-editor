@@ -29,6 +29,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ```
 
 ## Sources
+- https://editorjs.io/getting-started/
+- https://quilljs.com/
 - https://ui.shadcn.com/docs/components/data-table
 - https://www.tiny.cloud/docs/integrations/react/
 

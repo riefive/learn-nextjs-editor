@@ -13,11 +13,13 @@ export function EditorComponent() {
     return (
         <>
             <Editor
+                tinymceScriptSrc="/js/tinymce/tinymce.min.js"
                 onInit={(evt, editor) => (editorRef.current = editor)}
                 initialValue="<p>This is the initial content of the editor.</p>"
                 init={{
                     height: 500,
                     menubar: false,
+                    branding: false,
                     plugins: [
                         "advlist",
                         "autolink",
