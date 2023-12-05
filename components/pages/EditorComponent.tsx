@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import EditorJS from "@editorjs/editorjs";
-import Header from '@editorjs/header'; 
+import Header from "@editorjs/header";
 
 const DEFAULT_INITIAL_DATA = {
     time: new Date().getTime(),
@@ -34,7 +34,7 @@ export function EditorComponent() {
                 console.log(content);
             },
             tools: {
-              header: Header
+                header: Header,
             },
         });
     };
